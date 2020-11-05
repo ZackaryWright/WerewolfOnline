@@ -12,8 +12,8 @@
   grid-template-columns: auto auto auto;
   width: 65%;
   position: absolute;
-  top: 6rem;
-  left: 30rem;
+  top: 15%;
+  left: 35%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   box-shadow: -6px 5px #000;
@@ -27,13 +27,12 @@
 .player-container {
   position: absolute;
   display: inline-block;
-  top: 25rem;
-  left: 20rem;
+  top: 55%;
+  left: 20%;
   width: 30%;
 }
 
 .current-player {
-  /* left: 40%; */
   padding: 25px;
 }
 
@@ -45,15 +44,15 @@
 }
 
 .player-img {
-  width: 4.5rem;
-  height: 6rem;
+  max-width: 4.5rem;
+  max-height: 6rem;
   /* Used only for placeholders */
   opacity: 2%;
 }
 
 .current-player-img {
-  width: 10rem;
-  height: 10rem;
+  max-width: 10rem;
+  max-height: 10rem;
   border: 1px solid #bcbcbc;
   border-width: thin;
   /* Used only for placeholders */
@@ -62,8 +61,8 @@
 
 .chat-container {
   position: absolute;
-  top: 10rem;
-  right: 2rem;
+  top: 15%;
+  right: 2%;
 }
 
 .chat-display {
